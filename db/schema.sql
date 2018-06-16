@@ -7,7 +7,7 @@ CREATE TABLE burgers (
 	burger_name varchar(30) NOT NULL,
 	devoured boolean default false,
 	date timestamp NOT NULL,
-	PRIMARY KEY (`id`)
+	PRIMARY KEY (id)
 );
 
 
